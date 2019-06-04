@@ -29,11 +29,6 @@
             "styles": [
               "src/styles.sass"
             ],
-            "stylePreprocessorOptions": {
-              "includePaths": [
-                "../shared/via-styles"
-              ]
-            },
             "scripts": [
               {
                 "input": "node_modules/document-register-element/build/document-register-element.js"

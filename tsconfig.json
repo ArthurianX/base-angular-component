@@ -2,14 +2,6 @@
   "compileOnSave": false,
   "compilerOptions": {
     "baseUrl": "./",
-    "paths": {
-      "via-models": [
-        "../shared/via-models"
-      ],
-      "via-styles": [
-        "../shared/via-styles"
-      ]
-    },
     "outDir": "./dist/out-tsc",
     "sourceMap": true,
     "declaration": false,
