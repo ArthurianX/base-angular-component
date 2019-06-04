@@ -16,12 +16,13 @@
     "start": "ng serve",
     "start-serving": "concurrently \"ng serve\" \"ng-packagr -p package.json --watch\"",
     "start-via": "ng-packagr -p package.json --watch",
-    "build": "ng build --prod --output-hashing=none && cat dist/base-angular-component/{runtime,polyfills,scripts,main}.js > dist/base-angular-component.js",
+    "build": "ng build --prod --output-hashing=none && cat dist/base-angular-component/{runtime-es2015,polyfills-es2015,scripts,main-es2015}.js > dist/base-angular-component.js",
     "build-packagr": "cp -R ../shared/via-models node_modules/via-models && ng-packagr -p package.json && rm -rf node_modules/via-models",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
   },
+
   "license": "MIT",
   "private": true,
   "dependencies": {
