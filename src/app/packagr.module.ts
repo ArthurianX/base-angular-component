@@ -3,6 +3,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import {DemoComponent} from './demo/demo.component';
+import {LottieAnimationViewModule} from 'ng-lottie';
 
 
 @NgModule({
@@ -14,6 +15,7 @@ import {DemoComponent} from './demo/demo.component';
     FormsModule,
     ReactiveFormsModule,
     BrowserAnimationsModule,
+    LottieAnimationViewModule.forRoot()
   ],
   exports: [ DemoComponent ],
 })
